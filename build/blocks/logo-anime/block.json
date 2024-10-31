@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "itmar/logo-anime",
+  "title": "Logo Anime",
+  "category": "design",
+  "version": "0.1.0",
+  "supports": {
+    "multiple": false,
+    "html": false
+  },
+  "attributes": {
+    "bg_Color": {
+      "type": "string",
+      "default": "#504237"
+    },
+    "bg_Gradient": {
+      "type": "string"
+    },
+    "logo_text": {
+      "type": "string",
+      "default": "LOGO"
+    },
+    "logo_font": {
+      "type": "string",
+      "default": "Roboto-Black.ttf"
+    },
+    "logo_size": {
+      "type": "number",
+      "default": 30
+    },
+    "logo_width": {
+      "type": "number",
+      "default": 0
+    },
+    "logo_height": {
+      "type": "number",
+      "default": 0
+    },
+    "logo_gap": {
+      "type": "number",
+      "default": 5
+    },
+    "logo_strokeColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "logo_fillColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "logo_fillGradient": {
+      "type": "string"
+    },
+    "char_paths": {
+      "type": "array",
+      "default": []
+    },
+    "trigger_anime": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_anime": {
+      "type": "boolean",
+      "default": false
+    },
+    "is_front": {
+      "type": "boolean",
+      "default": true
+    },
+    "fontFamilyOptions": {
+      "type": "array",
+      "default": []
+    },
+    "ending_type": {
+      "type": "string",
+      "default": "virtical_slide"
+    },
+    "is_check_enable": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "opening-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
